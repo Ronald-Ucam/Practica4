@@ -36,12 +36,22 @@ class PersonaTest2 {
         Persona adulto = new Persona("Carlos", 35);
         Persona nino = new Persona("Laura", 10);
 
+        assertEquals("Si", adulto.esAdulto());
+        //sE esperaba un si
+        assertEquals("no", nino.esAdulto()); 
+        //Se esperaba un No
+    }
+    /*
+    @Test
+    void testEsAdulto() {
+        Persona adulto = new Persona("Carlos", 35);
+        Persona nino = new Persona("Laura", 10);
+
         assertEquals("NO", adulto.esAdulto());
         //sE esperaba un si
         assertEquals("SI", nino.esAdulto()); 
         //Se esperaba un No
-    }
-    
+    }*/
 
     @Test
     void testDescribirPersona() {
@@ -73,9 +83,9 @@ class PersonaTest2 {
 
 
     @Test
-    void testCelebrarCumpleaÃ±os() {
+    void testCelebrarCumpleaños() {
         Persona persona = new Persona("Elena", 28);
-        persona.celebrarCumpleaÃ±os();
+        persona.celebrarCumpleaños();
         assertEquals(29, persona.obtenerEdad()); 
     }
 

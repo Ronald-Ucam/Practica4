@@ -22,7 +22,7 @@ public class TestPartitionM {
     	Persona persona = new Persona("Otro Ejemplo", 25);
 
         // Llamar a otro método que cambia el estado
-        persona.celebrarCumpleaños();
+        persona.celebrarCumplea�os();
 
         // Verificar si el estado cambió correctamente
         assertTrue(persona.obtenerEdad() == 26); 

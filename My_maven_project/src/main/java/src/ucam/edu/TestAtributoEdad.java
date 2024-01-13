@@ -6,12 +6,12 @@ import org.junit.Test;
 public class TestAtributoEdad {
     
     @Test
-    public void testIncrementoEdadEnCelebrarCumpleaños() {
+    public void testIncrementoEdadEnCelebrarCumplea�os() {
         // Crear una persona con una edad específica
         Persona persona = new Persona("Ejemplo", 25);
         
         // Llamar al método que incrementa la edad al celebrar el cumpleaños
-        persona.celebrarCumpleaños();
+        persona.celebrarCumplea�os();
         
         // Verificar que la edad ha aumentado
         assertTrue(persona.obtenerEdad() == 26);

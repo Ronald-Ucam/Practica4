@@ -58,7 +58,7 @@ public class Persona {
     }
 
 
-    public void celebrarCumpleaños() {
+    public void celebrarCumplea�os() {
         edad++;
         System.out.println(nombre + " ha celebrado su cumpleaños. Ahora tiene " + edad + " años.");
     }
@@ -90,7 +90,7 @@ public class Persona {
             System.out.println("Descripción: " + persona.describirPersona());
             System.out.println("¿Puede votar?: " + persona.puedeVotar());
             persona.votar();  // Ejemplo de uso del método votar
-            persona.celebrarCumpleaños();  // Ejemplo de uso del método celebrarCumpleaños
+            persona.celebrarCumplea�os();  // Ejemplo de uso del método celebrarCumpleaños
             System.out.println();
         }
 
