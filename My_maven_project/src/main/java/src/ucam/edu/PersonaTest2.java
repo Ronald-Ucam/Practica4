@@ -39,7 +39,7 @@ class PersonaTest2 {
         assertEquals("Si", adulto.esAdulto());
         //sE esperaba un si
         assertEquals("no", nino.esAdulto()); 
-        //Se esperaba un No
+        //Se esperaba un Nos
     }
     /*
     @Test
