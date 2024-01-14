@@ -38,7 +38,7 @@ class PersonaTest2 {
 
         assertEquals("Si", adulto.esAdulto());
         //sE esperaba un si
-        assertEquals("no", nino.esAdulto()); 
+        assertEquals("nooo", nino.esAdulto()); 
         //Se esperaba un Nos
     }
     /*
@@ -53,6 +53,7 @@ class PersonaTest2 {
         //Se esperaba un No
     }*/
 
+    
     @Test
     void testDescribirPersona() {
         Persona nino = new Persona("Pedro", 10);
