@@ -36,9 +36,9 @@ class PersonaTest2 {
         Persona adulto = new Persona("Carlos", 35);
         Persona nino = new Persona("Laura", 10);
 
-        assertEquals("ERROR", adulto.esAdulto());
+        assertEquals("dscdscsdc", adulto.esAdulto());
         //sE esperaba un si
-        assertEquals("ERROR", nino.esAdulto()); 
+        assertEquals("cdscsdcsdc", nino.esAdulto()); 
         //Se esperaba un Nos
     }
     /*
